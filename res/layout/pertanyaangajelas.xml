@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tanya1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Apakah kamu goblok?"
+        />
+    
+    <EditText
+        android:id="@+id/jawaban1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tanya1"
+        />
+    
+    <Button 
+        android:id="@+id/submit1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/jawaban1"
+        android:hint="submit"
+        />
+    
+    <TextView
+        android:id="@+id/tanya2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/submit1"
+        android:text="aku juga gak tau mau nanya apa"
+        />
+    
+    <EditText 
+        android:id="@+id/jawaban2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tanya2"
+        />
+    
+    <Button 
+        android:id="@+id/submit2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/jawaban2"
+        android:hint="submit"
+        />
+    
+    <TextView
+        android:id="@+id/tanya3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/submit2"
+        android:text="main CODM?"
+        />
+    
+    <EditText 
+        android:id="@+id/jawaban3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tanya3"
+        />
+    
+    <Button
+        android:id="@+id/submit3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/jawaban3"
+        android:hint="submit"
+        />
+    
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+	    android:id="@+id/soal1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:text="menentukan Luas Persegi"
+	    />
+	
+	<EditText 
+	    android:id="@+id/sisi1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@+id/soal1"
+	    android:hint="masukkan sisi persegi"
+	    />
+	
+	<Button 
+	    android:id="@+id/tombol1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/sisi1"
+	    android:hint="Hasil"
+	    />
+    <EditText 
+        android:id="@+id/hasiljawaban"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tombol1"
+        />
+    
+    
+    
+</LinearLayout>
